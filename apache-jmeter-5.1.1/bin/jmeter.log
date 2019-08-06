@@ -1,0 +1,44 @@
+2019-08-01 23:54:49,282 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2019-08-01 23:54:49,292 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2019-08-01 23:54:49,292 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2019-08-01 23:54:49,297 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2019-08-01 23:54:49,297 INFO o.a.j.JMeter: Version 5.1.1 r1855137
+2019-08-01 23:54:49,297 INFO o.a.j.JMeter: java.version=1.8.0_191
+2019-08-01 23:54:49,297 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2019-08-01 23:54:49,297 INFO o.a.j.JMeter: os.name=Windows 10
+2019-08-01 23:54:49,297 INFO o.a.j.JMeter: os.arch=amd64
+2019-08-01 23:54:49,297 INFO o.a.j.JMeter: os.version=10.0
+2019-08-01 23:54:49,297 INFO o.a.j.JMeter: file.encoding=GBK
+2019-08-01 23:54:49,297 INFO o.a.j.JMeter: java.awt.headless=null
+2019-08-01 23:54:49,297 INFO o.a.j.JMeter: Max memory     =1073741824
+2019-08-01 23:54:49,297 INFO o.a.j.JMeter: Available Processors =4
+2019-08-01 23:54:49,301 INFO o.a.j.JMeter: Default Locale=English (EN)
+2019-08-01 23:54:49,301 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2019-08-01 23:54:49,301 INFO o.a.j.JMeter: JMeterHome=E:\work_vscode\Test-1\apache-jmeter-5.1.1
+2019-08-01 23:54:49,301 INFO o.a.j.JMeter: user.dir  =E:\work_vscode\Test-1\apache-jmeter-5.1.1\bin
+2019-08-01 23:54:49,301 INFO o.a.j.JMeter: PWD       =E:\work_vscode\Test-1\apache-jmeter-5.1.1\bin
+2019-08-01 23:54:56,334 INFO o.a.j.JMeter: IP: 192.168.0.100 Name: DESKTOP-UC158N1 FullName: 192.168.0.100
+2019-08-01 23:54:56,554 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2019-08-01 23:54:56,571 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2019-08-01 23:54:56,571 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2019-08-01 23:54:56,615 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2019-08-01 23:54:57,701 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-08-01 23:54:57,702 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-08-01 23:54:57,702 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-08-01 23:54:57,702 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-08-01 23:54:57,702 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2019-08-01 23:54:57,702 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2019-08-01 23:54:58,006 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2019-08-01 23:54:58,006 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file E:\work_vscode\Test-1\apache-jmeter-5.1.1\bin\proxyserver.jks
+2019-08-01 23:54:58,127 INFO o.a.j.s.FileServer: Default base='E:\work_vscode\Test-1\apache-jmeter-5.1.1\bin'
+2019-08-01 23:54:58,804 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2019-08-01 23:54:58,804 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2019-08-01 23:54:58,804 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2019-08-01 23:54:58,804 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2019-08-01 23:55:17,232 INFO o.a.j.g.a.Load: Loading file: E:\work_vscode\Test-1\apache-jmeter-5.1.1\results\BeanShellFunction.bshrc
+2019-08-01 23:55:17,232 INFO o.a.j.s.FileServer: Set new base='E:\work_vscode\Test-1\apache-jmeter-5.1.1\results'
+2019-08-01 23:55:17,355 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2019-08-01 23:55:17,364 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2019-08-01 23:55:17,365 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2019-08-01 23:55:17,367 INFO o.a.j.s.SaveService: Loading file: E:\work_vscode\Test-1\apache-jmeter-5.1.1\results\BeanShellFunction.bshrc
+2019-08-01 23:55:17,445 INFO o.a.j.s.FileServer: Set new base='E:\work_vscode\Test-1\apache-jmeter-5.1.1\results'
