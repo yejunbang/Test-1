@@ -19,6 +19,11 @@ export default new Router({
       path: '/socketIo',
       name: 'SocketIo',
       component: () => import('../components/socket/socket.io.vue')
+    },
+    {
+      path: '/axios',
+      name: 'Axios',
+      component: () => import('../components/axios')
     }
   ]
 })

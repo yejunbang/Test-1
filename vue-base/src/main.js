@@ -5,8 +5,11 @@ import App from './App'
 import router from './router'
 import VueSocketIo from 'vue-socket.io'
 import SocketIo from 'socket.io-client'
+import api from './api'
 
 Vue.config.productionTip = false
+
+Vue.use(api)
 
 Vue.use(new VueSocketIo({
   connection: SocketIo('http://localhost:3000')

@@ -1,7 +1,7 @@
-import sailingProduct from './module/product/sailingProduct'
+import product from './module/product'
 
 const api = {
-  sailingProduct
+  product
 }
 
 export default {

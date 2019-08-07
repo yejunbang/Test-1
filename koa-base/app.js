@@ -2,13 +2,15 @@ var app = require('koa')(),
   logger = require('koa-logger'),
   json = require('koa-json'),
   views = require('koa-views'),
-  onerror = require('koa-onerror');
+  onerror = require('koa-onerror'),
+  cors = require('koa-cors');
 const runner = require('./runner/runner')
 global.Runner = runner
 
 const router = require('koa-router')();
 var index = require('./routes/index');
 var users = require('./routes/users');
+var product = require('./routes/product');
 var fs = require('./node_inner/fs');
 var stream = require('./node_inner/stream');
 
@@ -31,6 +33,7 @@ app.use(views('views', {
 app.use(require('koa-bodyparser')());
 app.use(json());
 app.use(logger());
+app.use(cors());
 
 app.use(function* (next) {
   var start = new Date;
@@ -47,6 +50,7 @@ app.use(users.routes(), users.allowedMethods());
 router.use('/fs', fs.routes(), fs.allowedMethods())
 router.use('/stream', stream.routes(), stream.allowedMethods())
 router.use('/buffer', buffer.routes(), buffer.allowedMethods())
+router.use('/api/product', product.routes(), product.allowedMethods())
 app.use(router.routes(), router.allowedMethods());
 
 // error-handling

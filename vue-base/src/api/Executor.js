@@ -57,7 +57,6 @@ class Executor {
           (this[loadingSyb] && loading) && (loading.close())
           (this[msgSyb].success) && (tip(this[msgSyb].success, 'success'))
           this.reset()
-          console.log('----sss', data)
           return resolve(data)
         })
         .catch(error => {
@@ -69,7 +68,7 @@ class Executor {
           }
         })
     })
-
   }
 }
-export default Executor
+
+export default Executor;
